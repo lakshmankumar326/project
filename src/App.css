@@ -1,0 +1,313 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #070a5b;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  height: 8%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding-left: 8%;
+  color: white;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.lasticonone {
+  display: flex;
+  padding-left: 30%;
+}
+
+.lasticontwo {
+  display: flex;
+  padding-left: 18%;
+}
+
+.lasticonthree {
+  display: flex;
+  padding-left: 30%;
+}
+
+.lasticonfour {
+  display: flex;
+  padding-left: 26%;
+}
+
+.lasticonfive {
+  display: flex;
+  padding-left: 41%;
+}
+
+.lastelement {
+  background-color: rgb(97, 114, 145);
+  margin: 2%;
+  margin-top: 180%;
+  display: flex;
+  align-items: center;
+  color: rgb(178, 177, 177);
+  gap: 5%;
+}
+
+.lastelementid {
+  color: black;
+  font-size: 2rem;
+}
+
+.lastelementname {
+  font-size: smaller;
+}
+
+.lastelementsign {
+  padding-left: 10%;
+}
+
+.sidebar a {
+  display: block;
+  color: rgb(205, 204, 204);
+  padding: 10px;
+  text-decoration: none;
+  width: 115%;
+  margin-left: 13%;
+  border-radius: 6%;
+}
+
+.sidebar a.active {
+  background-color: #9f92fe77;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #9f92fe77;
+  color: white;
+}
+
+div.content {
+  background-color: rgb(243, 234, 234);
+  margin-left: 200px;
+  padding: 5px 26px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float:left;
+  }
+
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.firstrow {
+  display: flex;
+  gap: 5%;
+  height: 20%;
+}
+
+.firstbox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 60%;
+  padding: 1%;
+}
+
+.firstrowleftside {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.firstboxlogoone {
+  background-color: rgb(151, 252, 206);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: green;
+}
+
+.firstboxlogotwo {
+  background-color: rgb(237, 178, 252);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: purple;
+}
+
+.firstboxlogothree {
+  background-color: rgb(163, 235, 248);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: blue;
+}
+
+.firstboxlogofour {
+  background-color: rgb(252, 146, 146);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: red;
+}
+
+.firstline {
+  font-size: smaller;
+  color: grey;
+}
+
+.secondline {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.thirdlineone {
+  font-size: smaller;
+  color: green;
+}
+
+.thirdline {
+  font-size: smaller;
+  color: red;
+}
+
+
+
+
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(243, 234, 234);
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftside {
+  flex: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+.navbar .rightside {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+
+.navbar .leftside img {
+  width: 80px;
+}
+
+.navbar .leftside button {
+  background-color: white;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.15px;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+.search {
+  display: flex;
+  border-radius: 18px;
+  border-color: wheat;
+  height: 50%;
+}
+
+
+.secondrow {
+  display: flex;
+  gap: 4%;
+  height: 30%;
+}
+
+.secondrowleftside {
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondrowrightside {
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thirdrow {
+  background-color: white;
+  width: 100%;
+  height: 20%;
+  margin-top: 2%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
